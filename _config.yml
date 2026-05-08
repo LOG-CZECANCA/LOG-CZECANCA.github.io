@@ -1,37 +1,9 @@
 ---
 layout: default
-title: My Pink Documentation
+title: paRDal User Guide
 ---
 
-<style>
-  /* 1. The Top Header */
-  .page-header {
-    background-color: #ff69b4 !important;
-    background-image: linear-gradient(120deg, #ffc0cb, #ff1493) !important;
-  }
+# paRDal User Guide
 
-  /* 2. The Main Background */
-  body, .main-content {
-    background-color: #fff0f5 !important; 
-  }
-
-  /* 3. The Text and Links */
-  .main-content h1, .main-content h2, .main-content h3 {
-    color: #ff1493 !important;
-  }
-  
-  a {
-    color: #ff1493 !important;
-  }
-
-  /* 4. The Buttons */
-  .btn {
-    color: #ff69b4 !important;
-    border-color: #ff69b4 !important;
-  }
-</style>
-
-# 🎀 Welcome to the Pink Zone
-This text should now be sitting on a pink background with a pink header!
 
 [Chapter 1](chapter1.md) | [Chapter 2](chapter2.md)
