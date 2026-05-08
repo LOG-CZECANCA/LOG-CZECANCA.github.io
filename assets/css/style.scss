@@ -2,24 +2,34 @@
 ---
 @import "{{ site.theme }}";
 
-// This makes the header pink
+// 1. THE HEADER (The big top section)
 .page-header {
-  background-color: #ff69b4;
-  background-image: linear-gradient(120deg, #ffc0cb, #ff1493);
+  background-color: #FFB6C1 !important; // Light Pink
+  background-image: linear-gradient(120deg, #FFB6C1, #FF69B4) !important; // Pink Gradient
 }
 
-// This makes the buttons pink-ish when you hover
+// 2. THE MAIN BACKGROUND (The area behind your text)
+body {
+  background-color: #FFF0F5 !important; // Lavender Blush (very soft pink)
+}
+
+// 3. HIGHLIGHTS & LINKS (The text links)
+a {
+  color: #FF1493 !important; // Deep Pink
+}
+
+// 4. BUTTONS
 .btn {
-  color: #ff69b4;
-  border-color: #ff69b4;
+  color: #FF69B4 !important;
+  border-color: #FF69B4 !important;
 }
 
 .btn:hover {
-  background-color: #ff69b4;
-  color: #ffffff;
+  background-color: #FF1493 !important;
+  color: #ffffff !important;
 }
 
-// This changes the section headings to pink
+// 5. SECTION HEADINGS
 .main-content h1, .main-content h2, .main-content h3 {
-  color: #ff1493;
+  color: #DB7093 !important; // Pale Violet Red
 }
