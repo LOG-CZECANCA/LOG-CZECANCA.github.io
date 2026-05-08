@@ -2,34 +2,16 @@
 ---
 @import "{{ site.theme }}";
 
-// 1. THE HEADER (The big top section)
 .page-header {
-  background-color: #FFB6C1 !important; // Light Pink
-  background-image: linear-gradient(120deg, #FFB6C1, #FF69B4) !important; // Pink Gradient
+  background-color: #FF00FF !important; /* Magenta/Neon */
+  background-image: linear-gradient(120deg, #FF00FF, #FF69B4) !important;
 }
 
-// 2. THE MAIN BACKGROUND (The area behind your text)
-body {
-  background-color: #FFF0F5 !important; // Lavender Blush (very soft pink)
-}
-
-// 3. HIGHLIGHTS & LINKS (The text links)
-a {
-  color: #FF1493 !important; // Deep Pink
-}
-
-// 4. BUTTONS
 .btn {
-  color: #FF69B4 !important;
-  border-color: #FF69B4 !important;
+  color: #FF1493 !important;
+  border-color: #FF1493 !important;
 }
 
-.btn:hover {
-  background-color: #FF1493 !important;
-  color: #ffffff !important;
-}
-
-// 5. SECTION HEADINGS
 .main-content h1, .main-content h2, .main-content h3 {
-  color: #DB7093 !important; // Pale Violet Red
+  color: #FF1493 !important;
 }
